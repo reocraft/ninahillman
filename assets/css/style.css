@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background: rgba(2, 187, 147, 0.35);
+    background-color: #a6e7d9
+    /*background: rgba(2, 187, 147, 0.35);*/
 }
 .banner{
     width: 100%;
@@ -100,6 +101,11 @@ body{
     text-decoration: underline;
     font-size: 36px;
 }
+.boxheader{
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-size: 36px;
+}
 .content{
     width: 100%;
     position: absolute;
@@ -149,6 +155,43 @@ body{
     font-size: 27px;
     line-height: 2.5;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.colorframe{
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 27px;
+    line-height: 2.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: auto;
+    justify-content: space-around;
+}
+.colorbox{
+    background-color: #fff;
+    border: 2px solid transparent;
+    padding: 1em;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    line-height: 1.4;
+    max-width: 27em;
+    margin-bottom: 20px;
+}
+.colorbox1{
+    border: 4px solid #003da5;
+}
+.colorbox2{
+    border: 4px solid #f01e1e;
+}
+.colorbox3{
+    border: 4px solid #16d11f;
+}
+.colorbox4{
+    border: 4px solid #fdf907;
+}
+.stamps{
+    width: 35px;
 }
 .timeline{
     margin: 0em auto 10em;
@@ -442,6 +485,10 @@ footer ul li a{
     .tos{
         margin: 0 60px;
     }
+}
+
+@media only screen and (max-width: 1000px){
+
 }
 
 @media only screen and (max-width: 1150px){
