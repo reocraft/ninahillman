@@ -507,6 +507,13 @@ footer ul li a{
     .tos{
         margin: 0 60px;
     }
+    .colorframe{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .colorbox{
+        font-size: 21px;
+    }
 }
 
 @media only screen and (max-width: 1000px){
