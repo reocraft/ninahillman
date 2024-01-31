@@ -207,6 +207,7 @@ body{
     border: 3px solid #fff;
     border-radius: 1em;
     padding: 1.5em;
+    background: rgba(255,255,255,0.45);
 }
 .checkpoint p{
     line-height: 27px;
@@ -311,6 +312,22 @@ footer ul li a{
     line-height: 700px;
     border-radius: 80px;
     margin: 20px;
+}
+.box-profile{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.75)),url(../images/profileWall.png);
+    background-size: contain;
+}
+.box-history{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.75)),url(../images/historyNinaWall.png);
+    background-size: contain;
+}
+.box-performance{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.75)),url(../images/performanceWall.png);
+    background-size: contain;
+}
+.box-community{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.75)),url(../images/communityBlur.png);
+    background-size: contain;
 }
 .flex-box2{
     width: 80%;
@@ -470,11 +487,16 @@ footer ul li a{
 /* <600px, 601px, 768px, 992px, 1200px> */
 
 @media only screen and (max-width: 600px){
-    .flex-box{
-        width: 90%;
-    }
     .content h1{
         font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 688px){
+    .flex-box1{
+        width: 90vw;
+        height: 67.5vw;
+        line-height: 100vw;
     }
 }
 
