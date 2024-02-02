@@ -397,6 +397,12 @@ footer ul li a{
 .hashsel{
     text-align: center;
 }
+.spacing{
+    padding-bottom: 1em;
+}
+.indent{
+    padding-left: 2em;
+}
 .hamburger{
     position: relative;
     display: block;
